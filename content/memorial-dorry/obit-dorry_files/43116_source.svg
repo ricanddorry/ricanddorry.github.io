@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65">
+  <g id="send-flowers" transform="translate(-687 -8208.997)">
+    <circle id="Ellipse_394" data-name="Ellipse 394" cx="32.5" cy="32.5" r="32.5" transform="translate(687 8208.997)" fill="#def0f0"/>
+    <g id="Group_5255" data-name="Group 5255" transform="translate(705.313 8230.776)">
+      <ellipse id="Ellipse_54" data-name="Ellipse 54" cx="12.92" cy="8.13" rx="12.92" ry="8.13" transform="matrix(0.591, -0.807, 0.807, 0.591, 5.181, 16.396)" fill="none" stroke="#47d5cd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <ellipse id="Ellipse_55" data-name="Ellipse 55" cx="8.13" cy="12.92" rx="8.13" ry="12.92" transform="matrix(0.866, -0.5, 0.5, 0.866, -5.193, 3.891)" fill="none" stroke="#47d5cd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_300" data-name="Line 300" y2="7.752" transform="translate(13.97 22.157)" fill="none" stroke="#47d5cd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
