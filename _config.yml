@@ -22,7 +22,7 @@ title: Ric and Dorry Bradley -- Living long lives well
 email: vveirs@coloradocollege.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Ric and Dorry's history and legacy
-baseurl: "gh-pages" # the subpath of your site, e.g. /blog
+baseurl: "/gh-pages" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  veirs
