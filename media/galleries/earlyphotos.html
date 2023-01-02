@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Ric and Dorry Photo Gallery - earlyphotos</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    
+    <div id="container">
+    
+      <!--
+        Gallery title
+      -->
+      <header>
+        <h1><a href="index.html">Ric and Dorry Photo Gallery</a></h1>
+      </header>
+    
+      <!--
+        Breadcrumbs of parent albums
+      -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="earlyphotos.html">earlyphotos</a>
+      </nav>
+    
+      <!--
+        Nested albums, if any
+      -->
+      <div id="albums">
+      </div>
+    
+      <!--
+        All photos and videos
+      -->
+      <ul id="media" class="clearfix">
+          
+            <li data-src="media/large/earlyphotos/1928%20Ric%20and%20brothers%20in%20Mariposa%20Grove%20CA.jpeg"
+                data-sub-html=""
+                data-download-url="media/original/earlyphotos/1928%20Ric%20and%20brothers%20in%20Mariposa%20Grove%20CA.jpeg"
+                
+                data-filename="1928 Ric and brothers in Mariposa Grove CA.jpeg"
+          
+              >
+              <a href="media/original/earlyphotos/1928%20Ric%20and%20brothers%20in%20Mariposa%20Grove%20CA.jpeg">
+                <img src="media/thumbs/earlyphotos/1928%20Ric%20and%20brothers%20in%20Mariposa%20Grove%20CA.jpeg"
+                     width="120"
+                     height="120"
+                     alt="1928 Ric and brothers in Mariposa Grove CA.jpeg" />
+              </a>
+            </li>      
+            <li data-src="media/large/earlyphotos/1932%20Ric%20and%20brothers%20in%20Madison%20WI.jpeg"
+                data-sub-html=""
+                data-download-url="media/original/earlyphotos/1932%20Ric%20and%20brothers%20in%20Madison%20WI.jpeg"
+                
+                data-filename="1932 Ric and brothers in Madison WI.jpeg"
+          
+              >
+              <a href="media/original/earlyphotos/1932%20Ric%20and%20brothers%20in%20Madison%20WI.jpeg">
+                <img src="media/thumbs/earlyphotos/1932%20Ric%20and%20brothers%20in%20Madison%20WI.jpeg"
+                     width="120"
+                     height="120"
+                     alt="1932 Ric and brothers in Madison WI.jpeg" />
+              </a>
+            </li>      
+            <li data-src="media/large/earlyphotos/1940%20Ric%20xcountry%20skiing.jpeg"
+                data-sub-html=""
+                data-download-url="media/original/earlyphotos/1940%20Ric%20xcountry%20skiing.jpeg"
+                
+                data-filename="1940 Ric xcountry skiing.jpeg"
+          
+              >
+              <a href="media/original/earlyphotos/1940%20Ric%20xcountry%20skiing.jpeg">
+                <img src="media/thumbs/earlyphotos/1940%20Ric%20xcountry%20skiing.jpeg"
+                     width="120"
+                     height="120"
+                     alt="1940 Ric xcountry skiing.jpeg" />
+              </a>
+            </li>      
+            <li data-src="media/large/earlyphotos/Ric_toddler.jpeg"
+                data-sub-html=""
+                data-download-url="media/original/earlyphotos/Ric_toddler.jpeg"
+                
+                data-filename="Ric_toddler.jpeg"
+          
+              >
+              <a href="media/original/earlyphotos/Ric_toddler.jpeg">
+                <img src="media/thumbs/earlyphotos/Ric_toddler.jpeg"
+                     width="120"
+                     height="120"
+                     alt="Ric_toddler.jpeg" />
+              </a>
+            </li>  </ul>
+    
+      <!--
+        Pagination
+      -->
+    
+      <!--
+        Zip file link
+      -->
+    
+    
+      <!--
+        Optional footer
+      -->
+      <footer>
+        <p>Historic photos</p>
+      </footer>
+    
+    </div>
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Ric and Dorry Photo Gallery - Home</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    
+    <div id="container">
+    
+      <!--
+        Gallery title
+      -->
+      <header>
+        <h1><a href="index.html">Ric and Dorry Photo Gallery</a></h1>
+      </header>
+    
+      <!--
+        Breadcrumbs of parent albums
+      -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>
+      </nav>
+    
+      <!--
+        Nested albums, if any
+      -->
+      <div id="albums">
+    <a href="1940-ww2-cc.html" style="background-image: url('media/small/1940-ww2-cc/1944%20Ric%20in%20officer%27s%20uniform.jpeg')">
+            <div class="info">
+              <h3>1940-ww2-cc</h3>
+              <div class="summary">12 photos</div>
+              <div class="date">18 Apr 2022 - 02 Jun 2022</div>
+            </div>
+          </a><a href="1961-cc.html" style="background-image: url('media/small/1961-cc/1965%20Dorry,%20Ric,%20children%20on%20couch.jpeg')">
+            <div class="info">
+              <h3>1961-cc</h3>
+              <div class="summary">22 photos</div>
+              <div class="date">05 Feb 2022 - 02 Jun 2022</div>
+            </div>
+          </a><a href="earlyphotos.html" style="background-image: url('media/small/earlyphotos/1928%20Ric%20and%20brothers%20in%20Mariposa%20Grove%20CA.jpeg')">
+            <div class="info">
+              <h3>earlyphotos</h3>
+              <div class="summary">4 photos</div>
+              <div class="date">28 Apr 2022 - 02 Jun 2022</div>
+            </div>
+          </a>  </div>
+    
+      <!--
+        All photos and videos
+      -->
+      <ul id="media" class="clearfix">
+      </ul>
+    
+      <!--
+        Pagination
+      -->
+    
+      <!--
+        Zip file link
+      -->
+    
+    
+      <!--
+        Optional footer
+      -->
+      <footer>
+        <p>Historic photos</p>
+      </footer>
+    
+    </div>
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>
