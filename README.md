@@ -15,8 +15,9 @@ The code is deployed via Github pages at [ricanddorry.club](https://ricanddorry.
 ### Update galleries
 
 1. Use [Val's implementation of github-pages-gallery](https://github.com/veirs/ric_gallery_test)
-2. Manually add a new folder with new photos
+2. To trigger the Github action, create a new folder within the gallery directory of `ric_gallery_test` and name it such that the folder name will be a good gallery title (generated automatically). Alternatively, follow this [guidance for adding a new gallery](https://github.com/veirs/ric_gallery_test#adding-a-new-album-to-gallery).
 3. Clone Val's repo after the continuous integration is complete (generating gallery html, thumbnails, etc.)
 4. Manually copy gallery into this repo to replace the content in `media/galleries`
+5. Bonus step: to archive a copy of the original photo, create a new folder within /media/photos in this repo.
 
 
